@@ -10,6 +10,7 @@ class LoginPage extends Page {
      * define selectors using getter methods
      */
     get inputUsername() {
+		console.log('input get username');
         return $('#username');
     }
 
@@ -18,6 +19,7 @@ class LoginPage extends Page {
     }
 
     get btnSubmit() {
+		console.log('input get submit button');
         return $('button[type="submit"]');
     }
 
@@ -35,6 +37,7 @@ class LoginPage extends Page {
      * overwrite specific options to adapt it to page object
      */
     open() {
+		console.log("calling parent open method");
         return super.open('login');
     }
 }
