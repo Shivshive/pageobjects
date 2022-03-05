@@ -9,6 +9,7 @@ module.exports = class Page {
     */
     open(path) {
 		console.log('this is parent page');
+         console.log('may be open');
         return browser.url(`https://the-internet.herokuapp.com/${path}`)
     }
 }

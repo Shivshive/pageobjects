@@ -11,6 +11,7 @@ class SecurePage extends Page {
      */
     get flashAlert() {
 		console.log('flash alert');
+         console.log('may be flashalert');
         return $('#flash');
     }
 }

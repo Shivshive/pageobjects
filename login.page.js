@@ -11,15 +11,18 @@ class LoginPage extends Page {
      */
     get inputUsername() {
 		console.log('input get username');
+        console.log('may be username');
         return $('#username');
     }
 
     get inputPassword() {
+        console.log('may be password');
         return $('#password');
     }
 
     get btnSubmit() {
 		console.log('input get submit button');
+         console.log('may be submit');
         return $('button[type="submit"]');
     }
 
@@ -38,6 +41,7 @@ class LoginPage extends Page {
      */
     open() {
 		console.log("calling parent open method");
+         console.log('may be open parent');
         return super.open('login');
     }
 }
