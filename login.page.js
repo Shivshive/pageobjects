@@ -10,14 +10,17 @@ class LoginPage extends Page {
      * define selectors using getter methods
      */
     get inputUsername() {
+        console.log('may be username');
         return $('#username');
     }
 
     get inputPassword() {
+        console.log('may be password');
         return $('#password');
     }
 
     get btnSubmit() {
+         console.log('may be submit');
         return $('button[type="submit"]');
     }
 
@@ -35,6 +38,7 @@ class LoginPage extends Page {
      * overwrite specific options to adapt it to page object
      */
     open() {
+         console.log('may be open parent');
         return super.open('login');
     }
 }
