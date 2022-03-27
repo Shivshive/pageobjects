@@ -11,20 +11,17 @@ class LoginPage extends Page {
      */
     get inputUsername() {
 
-        console.log('wait for element exists');
         return $('#username');
     }
 
     get inputPassword() {
 
-        console.log('lchange >> wait for pageload')
-
-        console.log('wait for element exists');
-
         return $('#password');
     }
 
     get btnSubmit() {
+
+
 
         return $('button[type="submit"]');
     }
@@ -43,7 +40,6 @@ class LoginPage extends Page {
      * overwrite specific options to adapt it to page object
      */
     open() {
-		console.log('open login page')
         return super.open('login');
     }
 }
