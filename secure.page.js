@@ -10,7 +10,7 @@ class SecurePage extends Page {
      * define selectors using getter methods
      */
     get flashAlert() {
-		
+	console.log('wait for element exists');	
         return $('#flash');
     }
 }
