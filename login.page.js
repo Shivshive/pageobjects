@@ -10,12 +10,12 @@ class LoginPage extends Page {
      * define selectors using getter methods
      */
     get inputUsername() {
-		
+	console.log('wait for element exists');	
         return $('#username');
     }
 
     get inputPassword() {
-        
+        console.log('wait for element exists');	
         return $('#password');
     }
 
