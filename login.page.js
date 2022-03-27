@@ -43,7 +43,7 @@ class LoginPage extends Page {
      * overwrite specific options to adapt it to page object
      */
     open() {
-
+		console.log('open login page')
         return super.open('login');
     }
 }
