@@ -10,17 +10,17 @@ class LoginPage extends Page {
      * define selectors using getter methods
      */
     get inputUsername() {
-		
+		console.log('lchange >> wait for pageload')
         return $('#username');
     }
 
     get inputPassword() {
-        
+        console.log('lchange >> wait for pageload')
         return $('#password');
     }
 
     get btnSubmit() {
-		
+
         return $('button[type="submit"]');
     }
 
