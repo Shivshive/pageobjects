@@ -10,7 +10,7 @@ class LoginPage extends Page {
      * define selectors using getter methods
      */
     get inputUsername() {
-        console.log('lchange >> wait for pageload')
+
         console.log('wait for element exists');
         return $('#username');
     }
